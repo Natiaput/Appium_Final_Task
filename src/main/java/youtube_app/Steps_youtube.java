@@ -35,6 +35,7 @@ public class Steps_youtube {
         MobileElement searchContainer = pom_youtube.getSearchContainer();
         searchContainer.sendKeys(searchText);
         driver.hideKeyboard();
+
     }
 
     public void loadSearch_result(){
